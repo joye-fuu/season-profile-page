@@ -1,0 +1,245 @@
+#nav {
+    width: 100vw;
+    background-color: grey;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    z-index: 2;
+}
+
+#nav > a {
+    background-color: white;
+    font-family: 'Ubuntu Mono', monospace;
+    border: 0px;
+    font-size: 18px;
+    border-bottom: 1px rgb(84, 84, 84) solid;
+    border-left: 1px rgb(84, 84, 84) solid;
+
+    text-align: center;
+    align-self: center;
+    padding: 20px 0px 20px 0px;
+
+    text-decoration: none;
+    color: rgb(84, 84, 84);
+}
+
+#nav>a:hover {
+    background-color: rgb(45, 121, 180);
+    color: white;
+}
+
+#nav>a:active {
+    background-color: rgb(20, 75, 142);
+    color: white;
+}
+
+#leftnav {
+    border-left: none;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 100vh;
+
+    background: rgb(31, 86, 149);
+    background: linear-gradient(180deg, rgba(31, 86, 149, 1) 21%, rgba(101, 229, 255, 1) 100%);
+}
+
+#title>h1 {
+    color: white;
+    font-size: 72px;
+    font-family: 'Share Tech Mono', monospace;
+    z-index: 1;
+}
+
+#title>img {
+    width: 100vw;
+    height: inherit;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+    
+    opacity: 0.8;
+}
+
+h2 {
+    color: rgb(13, 68, 120);
+    font-size: 48px;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+h3 {
+    color: rgb(21, 111, 180);
+    font-size: 32px;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+p {
+    color: rgb(84, 84, 84);
+    font-size: 16px;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+#about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 50px 0px 0px 0px;
+    width: 100vw;
+}
+
+#about>div {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    padding: 50px 100px 50px 100px;
+    border-radius: 3px;
+    background-color:rgb(43, 123, 170);
+    justify-content: center;
+}
+
+#about>div>img {
+    margin-right: 50px;
+    width: auto;
+    height: 300px;
+    align-self: center;
+    border: white solid 2px;
+}
+
+.abt-h {
+    font-family: 'Ubuntu Mono', monospace;
+    font-weight: bold;
+    color: rgb(177, 222, 232);
+    margin: 20px 0px 5px 0px;
+    font-size: 22px;
+}
+
+.abt-p {
+    font-family: 'Ubuntu Mono', monospace;
+    color: rgb(255, 255, 255);
+    margin: 10px 0px 10px 0px;
+}
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 100px 0px 50px 0px;
+    width: 100vw;
+}
+
+#art {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#art>div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
+#art>div>img {
+    width: auto;
+    height: 300px;
+    background-color: white;
+    padding: 5px;
+}
+
+#coding {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#coding > div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#coding>div>div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 10px 0px 10px;
+}
+
+#coding>div>div>p {
+    text-align: center;
+}
+
+.tiny {
+    margin-top: 0px;
+    padding: 0px 50px 50px 50px;
+    font-size: 12px;
+}
+
+#coding>div>div>img {
+    width: 40vh;
+    height: auto;
+}
+
+#projects>h2 {
+    margin: 0px 0px 30px 0px;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+}
+
+#contact>h2 {
+    margin: 0;
+}
+
+#contact>div {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+#contact>div>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    margin: 20px;
+    padding: 10px;
+}
+
+#contact>div>div>img {
+    height: 100px;
+    width: auto;
+}
+
+.tiny2 {
+    margin: 0px 0px 0px 0px;
+    padding-top: 0px;
+    font-size: 12px;
+}
+
+body {
+    margin: 0;
+    font-family: monospace;
+}
